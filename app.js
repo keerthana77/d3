@@ -9,7 +9,7 @@ d3.select('#chart').selectAll('div')
 // .text(function(d) {
 //     return 'I can count up to ' + d;
 // })
-.attr("class", "bar")
+// .attr("class", "bar")
 .style("height", function(d) {
     return d*5 + "px";
 });
